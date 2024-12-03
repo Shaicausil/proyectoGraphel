@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center  ;
+    font-family: "Open Sans", sans-serif;
+  }
+  body{
+    background-color: #f4f4f4;
+  }
+  .openSans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    background-color: #24282b;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    justify-content: space-around;
+    border-bottom: 3px solid #1293d4;
+    gap: 10%;
+  }
+  .barra{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .menu{
+    color: white;
+    text-decoration: solid;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+  }
+  .href:hover{
+    color: #1293d4;
+    font-size: 14px;
+  }
+  .background{
+    background: url(../assets/images/images/cabecera.jpg) no-repeat;
+    background-size: 140%;
+    background-position: 0% 45%;
+    height: 300px;
+    width: 100%;
+    padding: 90px;
+  }
+  .titulo{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .textoP{
+    color: white;
+    margin: 0 10vw;
+  }
+  span{
+    color: #1293d4;
+  }
+  nav{
+    background-color: #24282b;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    height: 70px;
+    padding: 20px;
+    gap: 10%;
+  }
+  .mail{
+    border-radius: 0;
+    border: 0;
+    padding: 5px;
+    width: 165px;
+  }
+  .buttonS{
+    padding: 5px;
+    width: 70px;
+    border-radius: 0;
+    border: 0;
+    color: white;
+    background-color:#e8491d;
+  }
+  .suscribebutton:hover{
+    background-color: #1293d4;
+    cursor: pointer;
+  }
+  .cursos{
+    display: flex;
+    padding: 15px 20px;
+    min-height: 200px;
+    justify-content: center;
+    gap: 3vw;
+  }
+  .imgIcons{
+    height: 70px;
+  }
+  .contenido{
+    width: 20%;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1293d4;
+    color: white;
+    height: 60px;
+  }
+  .contenidoC{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0%;
+    gap: 4vw;
+    margin: 10px 0;
+  }
+  .usImg{
+    width: 100%;
+  }
+  .contenidoLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 6px;
+    max-width: 40vw;
+  }
+  .gris{
+    background-color: #505b63;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  p{
+    font-size: 16px;
+  }
+  .texto{
+    text-align: justify;
+  }
+  h1{
+    font-size: 26px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .serviceBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #eff0f0;
+    padding: 20px 10px;
+    text-align: justify;
+    border: 1px solid #bec1c4;
+    gap: 10px;
+  }
+  .ContenidoRigth{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #505b63;
+    color: white;
+    padding: 10px;
+    max-width: 22vw;
+    margin-bottom: 17%;
+    gap: 10px;
+  }
+  .formBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 8px;
+  }
+  .form{
+    text-align: left;
+    width: 40vw;
+    font-size: 12px;
+    height: 32px;
+    border-radius: 0;
+    border: 1px solid #505b63;
+  }
+  .form2{
+    text-align: left;
+    width: 40vw;
+    font-size: 12px;
+    height: 150px;
+    border-radius: 0;
+    border: 1px solid #505b63;
+  }
+  .sendForm{
+    margin-top: 10px;
+    width: 40vw;
+    font-size: 12px;
+    height: 32px;
+    border-radius: 0;
+    background-color: #e8491d;
+    border: 1px solid #505b63;
+    color: white;
+  }
+  .sendForm:hover{
+    background-color: #1293d4;
+    cursor: pointer;
+  }
+  .mapaGoogle{
+    width: 100%;
+    margin-top: -8vh;
+  }
+  .rigthTextMap{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-width: 22vw;
+    gap: 10px;
+  }
